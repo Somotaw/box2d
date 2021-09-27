@@ -5,3 +5,19 @@ settings.ini
 CMakeSettings.json
 out/
 .vs/
+
+# --- Nord specific ---
+
+# Binaries
+**/bin/
+bin-int/
+
+# Nord files
+*.log
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
